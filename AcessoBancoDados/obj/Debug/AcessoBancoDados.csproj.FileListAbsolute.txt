@@ -1,0 +1,6 @@
+c:\users\cadmiel\documents\visual studio 2012\Projects\Temporada2\AcessoBancoDados\obj\Debug\AcessoBancoDados.csprojResolveAssemblyReference.cache
+c:\users\cadmiel\documents\visual studio 2012\Projects\Temporada2\AcessoBancoDados\bin\Debug\AcessoBancoDados.dll.config
+c:\users\cadmiel\documents\visual studio 2012\Projects\Temporada2\AcessoBancoDados\bin\Debug\AcessoBancoDados.dll
+c:\users\cadmiel\documents\visual studio 2012\Projects\Temporada2\AcessoBancoDados\bin\Debug\AcessoBancoDados.pdb
+c:\users\cadmiel\documents\visual studio 2012\Projects\Temporada2\AcessoBancoDados\obj\Debug\AcessoBancoDados.dll
+c:\users\cadmiel\documents\visual studio 2012\Projects\Temporada2\AcessoBancoDados\obj\Debug\AcessoBancoDados.pdb

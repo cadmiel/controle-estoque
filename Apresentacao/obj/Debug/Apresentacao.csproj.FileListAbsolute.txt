@@ -1,0 +1,11 @@
+c:\users\cadmiel\documents\visual studio 2012\Projects\Temporada2\Apresentacao\bin\Debug\Apresentacao.exe.config
+c:\users\cadmiel\documents\visual studio 2012\Projects\Temporada2\Apresentacao\bin\Debug\Apresentacao.exe
+c:\users\cadmiel\documents\visual studio 2012\Projects\Temporada2\Apresentacao\bin\Debug\Apresentacao.pdb
+c:\users\cadmiel\documents\visual studio 2012\Projects\Temporada2\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+c:\users\cadmiel\documents\visual studio 2012\Projects\Temporada2\Apresentacao\obj\Debug\Apresentacao.Properties.Resources.resources
+c:\users\cadmiel\documents\visual studio 2012\Projects\Temporada2\Apresentacao\obj\Debug\Apresentacao.csproj.GenerateResource.Cache
+c:\users\cadmiel\documents\visual studio 2012\Projects\Temporada2\Apresentacao\obj\Debug\Apresentacao.exe
+c:\users\cadmiel\documents\visual studio 2012\Projects\Temporada2\Apresentacao\obj\Debug\Apresentacao.pdb
+C:\Users\cadmiel\documents\visual studio 2012\Projects\Temporada2\Apresentacao\obj\Debug\Apresentacao.FrmMenu.resources
+C:\Users\cadmiel\documents\visual studio 2012\Projects\Temporada2\Apresentacao\obj\Debug\Apresentacao.FrmPedidoVendaCadastrar.resources
+C:\Users\cadmiel\documents\visual studio 2012\Projects\Temporada2\Apresentacao\obj\Debug\Apresentacao.FrmFilialPesquisar.resources

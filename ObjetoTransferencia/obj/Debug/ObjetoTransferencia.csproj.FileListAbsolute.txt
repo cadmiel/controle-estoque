@@ -1,0 +1,5 @@
+c:\users\cadmiel\documents\visual studio 2012\Projects\Temporada2\ObjetoTransferencia\bin\Debug\ObjetoTransferencia.dll
+c:\users\cadmiel\documents\visual studio 2012\Projects\Temporada2\ObjetoTransferencia\bin\Debug\ObjetoTransferencia.pdb
+c:\users\cadmiel\documents\visual studio 2012\Projects\Temporada2\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.dll
+c:\users\cadmiel\documents\visual studio 2012\Projects\Temporada2\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.pdb
+c:\users\cadmiel\documents\visual studio 2012\Projects\Temporada2\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.csprojResolveAssemblyReference.cache

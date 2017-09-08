@@ -1,0 +1,9 @@
+c:\users\cadmiel\documents\visual studio 2012\Projects\Temporada2\Negocios\bin\Debug\Negocios.dll
+c:\users\cadmiel\documents\visual studio 2012\Projects\Temporada2\Negocios\bin\Debug\Negocios.pdb
+c:\users\cadmiel\documents\visual studio 2012\Projects\Temporada2\Negocios\obj\Debug\Negocios.dll
+c:\users\cadmiel\documents\visual studio 2012\Projects\Temporada2\Negocios\obj\Debug\Negocios.pdb
+C:\Users\cadmiel\documents\visual studio 2012\Projects\Temporada2\Negocios\bin\Debug\AcessoBancoDados.dll
+C:\Users\cadmiel\documents\visual studio 2012\Projects\Temporada2\Negocios\bin\Debug\ObjetoTransferencia.dll
+C:\Users\cadmiel\documents\visual studio 2012\Projects\Temporada2\Negocios\bin\Debug\AcessoBancoDados.pdb
+C:\Users\cadmiel\documents\visual studio 2012\Projects\Temporada2\Negocios\bin\Debug\ObjetoTransferencia.pdb
+C:\Users\cadmiel\documents\visual studio 2012\Projects\Temporada2\Negocios\obj\Debug\Negocios.csprojResolveAssemblyReference.cache
