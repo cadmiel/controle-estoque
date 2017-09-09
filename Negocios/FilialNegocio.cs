@@ -41,7 +41,7 @@ namespace Negocios
 
                     filial.Pessoa = pessoa;
 
-                    filialColecao.Add(pedido);
+                    filialColecao.Add(filial);
 
                 }
 
@@ -82,7 +82,7 @@ namespace Negocios
 
                     filial.Pessoa = pessoa;
 
-                    filialColecao.Add(pedido);
+                    filialColecao.Add(filial);
 
                 }
 

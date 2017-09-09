@@ -9,3 +9,10 @@ c:\users\cadmiel\documents\visual studio 2012\Projects\Temporada2\Apresentacao\o
 C:\Users\cadmiel\documents\visual studio 2012\Projects\Temporada2\Apresentacao\obj\Debug\Apresentacao.FrmMenu.resources
 C:\Users\cadmiel\documents\visual studio 2012\Projects\Temporada2\Apresentacao\obj\Debug\Apresentacao.FrmPedidoVendaCadastrar.resources
 C:\Users\cadmiel\documents\visual studio 2012\Projects\Temporada2\Apresentacao\obj\Debug\Apresentacao.FrmFilialPesquisar.resources
+C:\Users\cadmiel\documents\visual studio 2012\Projects\Temporada2\Apresentacao\bin\Debug\Negocios.dll
+C:\Users\cadmiel\documents\visual studio 2012\Projects\Temporada2\Apresentacao\bin\Debug\ObjetoTransferencia.dll
+C:\Users\cadmiel\documents\visual studio 2012\Projects\Temporada2\Apresentacao\bin\Debug\AcessoBancoDados.dll
+C:\Users\cadmiel\documents\visual studio 2012\Projects\Temporada2\Apresentacao\bin\Debug\Negocios.pdb
+C:\Users\cadmiel\documents\visual studio 2012\Projects\Temporada2\Apresentacao\bin\Debug\ObjetoTransferencia.pdb
+C:\Users\cadmiel\documents\visual studio 2012\Projects\Temporada2\Apresentacao\bin\Debug\AcessoBancoDados.pdb
+C:\Users\cadmiel\documents\visual studio 2012\Projects\Temporada2\Apresentacao\obj\Debug\Apresentacao.FrmClientePesquisar.resources

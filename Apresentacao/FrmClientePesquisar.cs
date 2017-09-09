@@ -13,37 +13,34 @@ using System.Reflection;
 
 namespace Apresentacao
 {
-    public partial class FrmFilialPesquisar : Form
+    public partial class FrmClientePesquisar : Form
     {
-        public Filial filialSelecionada { get; set; }
+        public Cliente clienteSelecionada { get; set; }
 
-        public FrmFilialPesquisar()
+        public FrmClientePesquisar()
         {
             InitializeComponent();
             dgwPrincipal.AutoGenerateColumns = false;
         }
 
-        private void btnCancelar_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
-
         private void btnPesquisar_Click(object sender, EventArgs e)
         {
-            FilialNegocio filialNegocio = new FilialNegocio();
-            FilialColecao filialColecao = new FilialColecao();
-           
+            ClienteNegocio clienteNegocio = new ClienteNegocio();
+            ClienteColecao clienteColecao = new ClienteColecao();
+
             int codigoDigitado;
-            
-            if(int.TryParse(txtPesquisar.Text, out codigoDigitado) == true)
+
+            if (int.TryParse(txtPesquisar.Text, out codigoDigitado) == true)
             {
-                filialColecao = filialNegocio.ConsultarPorCodigo(codigoDigitado);
-            }else{
-                filialColecao = filialNegocio.ConsultarPorNome(txtPesquisar.Text);
+                clienteColecao = clienteNegocio.ConsultarPorCodigoNome("@IdPessoaCliente", codigoDigitado);
+            }
+            else
+            {
+                clienteColecao = clienteNegocio.ConsultarPorCodigoNome("@Nome", txtPesquisar.Text);
             }
 
             dgwPrincipal.DataSource = null;
-            dgwPrincipal.DataSource = filialColecao;
+            dgwPrincipal.DataSource = clienteColecao;
             dgwPrincipal.Update();
             dgwPrincipal.Refresh();
         }
@@ -52,7 +49,7 @@ namespace Apresentacao
         {
             try
             {
-                object retorno="";
+                object retorno = "";
 
                 if (nomePropriedade.Contains("."))
                 {
@@ -60,7 +57,8 @@ namespace Apresentacao
                     string propriedadeAntesDoPonto;
                     propriedadeAntesDoPonto = nomePropriedade.Substring(0, nomePropriedade.IndexOf("."));
 
-                    if (propriedade != null) {
+                    if (propriedade != null)
+                    {
                         propertyInfoArray = propriedade.GetType().GetProperties();
                         foreach (PropertyInfo propertyInfo in propertyInfoArray)
                         {
@@ -68,14 +66,15 @@ namespace Apresentacao
                             {
                                 retorno = CarregarPropriedade(
                                     propertyInfo.GetValue(propriedade, null),
-                                    nomePropriedade.Substring(nomePropriedade.IndexOf(".")+1)
+                                    nomePropriedade.Substring(nomePropriedade.IndexOf(".") + 1)
                                     );
                             }
                         }
                     }
 
                 }
-                else {
+                else
+                {
                     Type tpyPropertyType;
                     PropertyInfo pfoPropertyInfo;
                     if (propriedade != null)
@@ -100,8 +99,8 @@ namespace Apresentacao
         {
             try
             {
-                if( (dgwPrincipal.Rows[e.RowIndex].DataBoundItem != null) && 
-                    (dgwPrincipal.Columns[e.ColumnIndex].DataPropertyName.Contains(".")) )
+                if ((dgwPrincipal.Rows[e.RowIndex].DataBoundItem != null) &&
+                    (dgwPrincipal.Columns[e.ColumnIndex].DataPropertyName.Contains(".")))
                 {
                     e.Value = CarregarPropriedade(
                         dgwPrincipal.Rows[e.RowIndex].DataBoundItem,
@@ -123,9 +122,8 @@ namespace Apresentacao
                 return;
             }
 
-            filialSelecionada = dgwPrincipal.SelectedRows[0].DataBoundItem as Filial;
+            clienteSelecionada = dgwPrincipal.SelectedRows[0].DataBoundItem as Cliente;
             DialogResult = DialogResult.OK;
         }
-
     }
 }

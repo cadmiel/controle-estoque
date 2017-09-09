@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmClientePesquisar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmClientePesquisar.Designer.cs">
+      <DependentUpon>FrmClientePesquisar.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmFilialPesquisar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +70,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmClientePesquisar.resx">
+      <DependentUpon>FrmClientePesquisar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmFilialPesquisar.resx">
       <DependentUpon>FrmFilialPesquisar.cs</DependentUpon>
     </EmbeddedResource>
@@ -94,6 +103,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Negocios\Negocios.csproj">
+      <Project>{3e50a4c3-dc7b-426b-b258-f55de0c3f975}</Project>
+      <Name>Negocios</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ObjetoTransferencia\ObjetoTransferencia.csproj">
+      <Project>{35282c67-80a3-4b74-a66c-eb08a62e3369}</Project>
+      <Name>ObjetoTransferencia</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

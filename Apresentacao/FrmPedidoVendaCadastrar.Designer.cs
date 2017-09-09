@@ -76,6 +76,8 @@
             this.txtEmitente.Name = "txtEmitente";
             this.txtEmitente.Size = new System.Drawing.Size(475, 20);
             this.txtEmitente.TabIndex = 0;
+            this.txtEmitente.TextChanged += new System.EventHandler(this.txtEmitente_TextChanged);
+            this.txtEmitente.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtEmitente_KeyDown);
             // 
             // lblEmitente
             // 
@@ -104,6 +106,7 @@
             this.btnDestinatario.TabIndex = 5;
             this.btnDestinatario.Text = "...";
             this.btnDestinatario.UseVisualStyleBackColor = true;
+            this.btnDestinatario.Click += new System.EventHandler(this.btnDestinatario_Click);
             // 
             // lblDestinatario
             // 
@@ -120,6 +123,7 @@
             this.txtDestinatario.Name = "txtDestinatario";
             this.txtDestinatario.Size = new System.Drawing.Size(475, 20);
             this.txtDestinatario.TabIndex = 3;
+            this.txtDestinatario.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtDestinatario_KeyDown);
             // 
             // lblNumero
             // 
